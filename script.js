@@ -37,7 +37,7 @@ async function getQuote(){
     if(data.quoteauthor===""){
       authorText.innerText="Unknown";
     }else{
-      authorText.innerText=data.quoteauthor;
+      authorText.innerText=data.quoteAuthor;
     }
     if(data.quoteText.length > 120){
       quoteText.classList.add('long-quote');
